@@ -1,0 +1,38 @@
+//main: ../style.less
+
+.arrowlink {
+    display: flex;
+    align-items: center;
+}
+
+.arrowlink__link {
+    margin-right: 25px;
+    font-family: 'Gilroy';
+    font-size: 14px;
+    line-height: 214%;
+    color: #5A98D0;
+
+    text-decoration: none;
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size .3s;
+}
+
+.arrowlink__link:hover {
+    background-size: 100% 2px;
+}
+
+.arrowlink__link:hover+ .arrowlink__icon {
+    opacity: 1;
+}
+
+.arrowlink__icon {
+    display: block;
+    opacity: 0;
+    fill: #5A98D0;
+    height: 24px;
+    width: 24px;
+    transition: opacity .3s linear;
+}

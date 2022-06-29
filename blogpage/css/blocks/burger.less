@@ -1,0 +1,45 @@
+//main: ../style.less
+
+
+.burger__fill {
+    position: fixed;
+    top: 0;
+    right: -200%;
+    z-index: 10;
+    width: 35%;
+    height: 100%;
+    overflow: auto;
+    
+
+    display: flex;
+
+    border-radius: 50px 0 0 0;
+    background-color: #5A98D0;
+    
+    transition: all .5s;
+
+    &--open {
+        right: 0;
+        
+    }
+}
+
+.burger__close {
+    
+    display: flex;
+    justify-content: end;
+    width: 50%;
+    padding: 30px 25px 0 0;
+}
+
+.burger__closebtn {
+    width: 22px;
+    height: 22px;
+    fill: white;
+    cursor: pointer;
+    transition: fill .1s linear;
+
+    &:hover {
+        fill: darken(white, 7%);
+    }
+}

@@ -1,0 +1,141 @@
+@media (max-width: 991px) {
+    /* burger */
+
+    .burger__fill {
+        width: 50%;
+    }
+}
+
+@media (max-width: 768px) {
+    .main__content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .main__block {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .main__form {
+        margin: 0 auto;
+        margin-top: 57px;    
+    }
+
+    .intro__text {
+        width: 580px;
+    }
+
+    .footer__upper {
+        flex-direction: column;
+        padding: 80px 0;
+    }
+
+    .footer__tittle-block {
+        width: 100%;
+        max-width: 80%;
+    }
+
+    .footer__tittle {
+        max-width: 100%;
+    }
+
+    .footer__btn-block {
+        margin-top: 30px;
+        justify-content: start;
+    }
+
+    .footer__bottom {
+        margin-top: 80px;
+        
+    }
+
+    .footer__contact {
+        width: 100%;
+    }
+
+    .footer__item {
+        margin-top: 55px;
+        width: 50%;
+    }
+
+    /* burger */
+
+    .burger__fill {
+        width: 70%;
+    }
+}
+
+@media (max-width: 425px) {
+    .main__form {
+        width: 400px;
+    }
+
+    .name, .email {
+        width: 285px;
+    }
+
+    .message {
+        width: 285px;
+    }
+    
+    .form__btn button {
+        width: 285px;
+    }
+
+    .intro__text {
+        width: 390px;
+    }
+
+    .footer__upper  {
+        padding: 100px 0 50px 0;
+    }
+
+    .footer__bottom  {
+        margin-top: 50px;
+    }
+
+    .footer__tittle-block {
+        width: 100%;
+        max-width: 90%;
+    }
+
+    .footer__item {
+        width: 100%;
+    }
+    /* burger */
+
+    .burger__fill {
+        width: 100%;
+    }
+
+    @media (max-width: 320px) {
+        .intro__text {
+            width: 280px;
+        }
+
+        .main__form {
+            width: 280px;
+        }
+
+        .form__content {
+            padding-left: 10px;
+        }
+
+        .name, .email, .message {
+            width: 240px;
+        }
+
+        .form__btn button {
+            width: 240px;
+
+        }
+
+        .btn {
+            padding: 10px 30px;
+        }
+
+    }
+}
