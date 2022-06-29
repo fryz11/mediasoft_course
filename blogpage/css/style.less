@@ -1,0 +1,99 @@
+// compress: true
+@font-face {
+    font-family: 'Galien';
+    src: url(../../_fonts/Galien/TTF/Galien-Regular.ttf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Galien';
+    src: url(../../_fonts/Galien/TTF/Galien-Bold.ttf);
+    font-weight: 800;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url(../../_fonts/Gilroy/Gilroy-Bold.ttf);
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url(../../_fonts/Gilroy/Gilroy-Regular.ttf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url(../../_fonts/Gilroy/Gilroy-UltraLight.ttf);
+    font-weight: 200;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url(../../_fonts/Gilroy/Gilroy-SemiBold.ttf);
+    font-weight: 600;
+}
+
+
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: 0;
+}
+
+ul,
+ol,
+li {
+    list-style: none;
+}
+img {
+    vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: inherit;
+    font-size: inherit;
+}
+
+body {
+    font-family: 'Gilroy';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 162%;
+    color: #1F3F68;
+}
+
+.noscroll {
+    overflow: hidden;
+}
+
+
+// blocks
+//================
+@import "blocks/container";
+@import "blocks/header";
+@import "blocks/intro";
+@import "blocks/advantages";
+@import "blocks/projects";
+@import "blocks/clients";
+@import "blocks/footer";
+@import "blocks/btn";
+@import "blocks/arrowlink";
+@import "blocks/tittle-block";
+@import "blocks/itemlist";
+@import "blocks/burger";
+
+//adaptive
+@import "adaptive.less";

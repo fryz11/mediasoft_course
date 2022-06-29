@@ -1,0 +1,101 @@
+// main: ../style.less
+
+.main__form {
+    width: 540px;
+    height: 800px;
+
+    border-radius: 10px;
+    box-shadow: 5px 10px 50px rgba(16, 112, 177, 0.2);
+
+    margin-top: 57px;
+}
+
+.form__content {
+    display: flex;
+    flex-direction: column;
+
+    padding-top: 56px;
+    padding-left: 56px;
+}
+
+.form__title {
+    font-family: 'Gilroy';
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.04em;
+    color: #1F3F68;
+
+    margin-bottom: 48px;
+    
+}
+
+.form__content label {
+    display: flex;
+    flex-direction: column;
+
+    font-family: 'Gilroy';
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.04em;
+    color: #1F3F68;
+    opacity: 0.8;
+
+    margin-bottom: 8px;
+}
+
+.form__content input {
+    margin-bottom: 32px;
+}
+
+.form__content input::placeholder {
+    position: absolute;
+    top: 21px;
+    left: 42px;
+
+    font-family: 'Gilroy';
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.04em;
+    color: #1F3F68;
+    opacity: 0.2;
+
+}
+
+.name, .email {
+    width: 428px;
+    height: 72px;
+
+    border: 1px solid #356EAD;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 10px;
+}
+
+.message {
+    width: 428px;
+    height: 144px;
+
+    border: 1px solid #356EAD;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 10px;
+
+    margin-bottom: 72px;
+}
+
+.form__btn button{
+    width: 428px;
+    height: 72px;
+
+    filter: drop-shadow(5px 10px 20px rgba(16, 112, 177, 0.2));
+
+    font-family: 'Gilroy';
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+    color: #FFFFFF;
+
+    background: #5A98D0;
+    box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+    border-radius: 10px;
+}

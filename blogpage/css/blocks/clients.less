@@ -1,0 +1,42 @@
+//main: ../style.less
+
+.clients {
+    background-color: #5A98D0;
+    border-radius: 200px 0 0 0;
+}
+
+.clients__tittle-block {
+    padding-top: 100px;
+    margin-bottom: 120px;
+}
+
+.clients__logos {
+   display: flex;
+   flex-wrap: wrap;
+   margin-bottom: 125px;
+}
+
+.clients__item {
+    text-align: center;
+    width: 25%;
+    padding: 40px;
+
+    font-size: 20px;
+    line-height: 230%;
+    color: #F2F2F2;
+    text-transform: uppercase;
+
+    transition: background-color .2s linear;
+}
+
+.clients__item:not(:nth-child(4n)) {
+    border-right: 1px solid #F2F2F2;
+}
+
+.clients__item:not(:nth-child(n+5)) {
+    border-bottom: 1px solid #F2F2F2;
+}
+
+.clients__item:hover {
+    background-color: #5177a8;
+}

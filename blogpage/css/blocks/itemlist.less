@@ -1,0 +1,51 @@
+//main: ../style.less
+
+.itemlist {
+    width: 25%;
+
+    &--burger {
+        width: 50%;
+    }
+}
+
+.itemlist__block {
+    padding: 50px 0 0 50px;
+    
+    &:first-child {
+        padding-top: 100px;
+    }
+}
+
+.itemlist__section {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 162%;
+    color: #FFFFFF;
+}
+
+.itemlist__link {
+    margin-top: 12px;
+
+    &:first-child {
+        margin-top: 32px;
+    }
+}
+
+.itemlist__link a {
+    font-size: 16px;
+    line-height: 202%;
+    color: #FFFFFF;
+    padding-bottom: 4px;
+    opacity: 0.8;
+
+    text-decoration: none;
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size .3s;
+
+    &:hover {
+        background-size: 100% 2px;
+    }
+}
